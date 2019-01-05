@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Lato';
 
-  src: url('../fonts/Lato/Lato-Regular.ttf');
+  src: url('../fonts/Lato/Lato-Bold.ttf');
 }
 
 * {
@@ -11,16 +11,34 @@
   font-family: Lato;
 }
 
+body {
+  background-color: #34495e;
+}
+
 .main-img {
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-image: url('../img/bg-3.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
 .main-img button {
   margin-top: 300px;
   font-size: 2rem;
+}
+
+h2{
+  color: #fff;
+  padding: 20px;
+}
+
+p{
+  color: #fff;
+}
+
+footer {
+  height: 200px;
+  margin-top: 30px;
+  background-color: #222f3e;
 }
