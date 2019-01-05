@@ -11,8 +11,15 @@
   font-family: Lato;
 }
 
-body {
+html, body {
   background-color: #34495e;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
 }
 
 .main-img {
@@ -39,6 +46,9 @@ p{
 
 footer {
   height: 200px;
+  width: 100%;
   margin-top: 30px;
-  background-color: #222f3e;
+  background-color: #2f3640;
 }
+
+
