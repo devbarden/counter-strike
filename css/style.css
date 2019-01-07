@@ -9,11 +9,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Lato;
+  word-spacing: 3px;
 }
 
 html, body {
   background-color: #34495e;
   height: 100%;
+  overflow-x: hidden;
 }
 
 main {
@@ -45,10 +47,43 @@ p{
 }
 
 footer {
-  height: 200px;
-  width: 100%;
   margin-top: 30px;
   background-color: #2f3640;
 }
 
+footer img {
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  margin: 15px 0;
+}
+
+footer figcaption {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+  margin-top: 70px;
+}
+
+footer ul {
+  list-style-type: none;
+  color: #fff;
+  margin-top: 90px;
+  text-align: center;
+}
+
+footer i {
+  margin: 0px 10px;
+  color: #fff;
+
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease; 
+  -o-transition: .3s ease;
+}
+
+footer i:hover {
+  color: #f39c12;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
 
